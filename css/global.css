@@ -1,0 +1,28 @@
+/* variables */
+
+:root {
+    --primary: #00417C;
+    --on-primary: #FFFFFF;
+    --primary-container: #8CC8FF;
+    --on-primary-container: #002159;
+    --secondary: #7D5D00;
+    --on-secondary: #FFFFFF;
+    --secondary-container: #FFE28C;
+    --on-secondary-container: #594300;
+    --tertiary: #7D3A00;
+    --on-tertiary: #FFFFFF;
+    --tertiary-container: #FFC18C;
+    --on-tertiary-container: #592900;
+    --error: #7D0000;
+    --on-error: #FFFFFF;
+    --error-container: #FF8C8C;
+    --on-error-container: #5E0000;
+    --surface: #F5FAFF;
+    --on-surface: #000A13;
+    --surface-container: #C8D2DB;
+    --surface-container-low: #E9F3FC;
+    --surface-variant: #A0AAB3;
+    --on-surface-variant: #28323B;
+    --outline: #505A63;
+    --outline-variant: #8C969F;
+}
