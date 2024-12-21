@@ -26,3 +26,18 @@
     --outline: #505A63;
     --outline-variant: #8C969F;
 }
+
+/* general styles */
+
+body {
+    background-color: var(--surface);
+    font-family: "Roboto Flex", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h-font {
+    font-family: "Cinzel", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+/* nav */
+
