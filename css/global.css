@@ -41,3 +41,51 @@ body {
 
 /* nav */
 
+nav, #hamburger-checkbox {
+    display: none;
+}
+
+#hamburger-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    background-color: var(--surface-container);
+    color: var(--on-surface);
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+nav {
+    position: absolute;
+    background-color: var(--surface-container);
+    left: 0px;
+}
+
+nav a {
+    display: block;
+    color: var(--on-surface);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+
+/* media queries*/
+
+@media (min-width: 700px) {
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+}
